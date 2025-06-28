@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Explore the portfolio of vladmir Nyataige, a skilled developer specializing in web development, UI/UX design, and modern JavaScript frameworks. View projects, services, and contact details.",
   keywords:
-    "developer portfolio, web developer, John Doe, UI/UX design, JavaScript, Next.js, frontend developer",
+    "developer portfolio, web developer, vladmir nyataige, UI/UX design, JavaScript, Next.js, frontend developer",
   authors: [{ name: "vladmir Nyataige" }],
   robots: "index, follow",
   openGraph: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@YourTwitterHandle", // Replace with your Twitter handle
+    site: "@https://twitter.com/@thy4savage", // Replace with your Twitter handle
     title: "vladmir Nyataige | Developer Portfolio",
     description:
       "Check out vladmir's portfolio for web development and UI/UX design projects.",

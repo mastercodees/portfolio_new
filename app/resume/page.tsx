@@ -18,17 +18,17 @@ const tabContent = {
     title: "Professional Experience",
     items: [
       {
-        role: "Senior Frontend Developer",
+        role: "Fullstack Developer",
         company: "Tech Solutions Inc.",
-        period: "2021 - Present",
+        period: "2024 - Present",
         description:
-          "Led the development of multiple React-based web applications, improving performance by 40%. Mentored junior developers and implemented best practices for code quality.",
+          "Led the development of multiple React-based web applications, improving performance by 40%. Mentored other developers and implemented best practices for code quality.",
         highlights: ["React", "Next.js", "TypeScript", "Team Leadership"],
       },
       {
         role: "Full Stack Developer",
         company: "Digital Innovations Ltd",
-        period: "2018 - 2021",
+        period: "2023 - 2024",
         description:
           "Developed and maintained full-stack applications using modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality solutions.",
         highlights: ["Node.js", "React", "MongoDB", "AWS"],

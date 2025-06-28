@@ -11,12 +11,12 @@ const socialData = [
   {
     title: "Github",
     icon: <Github width={20} height={20} />,
-    link: "https://www.github.com",
+    link: "https://github.com/mastercodees",
   },
   {
     title: "Linkedin",
     icon: <Linkedin width={20} height={20} />,
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/in/vladmir-nyataige",
   },
   {
     title: "Facebook",
@@ -24,27 +24,32 @@ const socialData = [
     link: "https://www.facebook.com",
   },
   {
-    title: "instagram",
+    title: "Instagram",
     icon: <Instagram width={20} height={20} />,
-    link: "www.instagram.com/_ladmir",
+    link: "https://www.instagram.com/_ladmir",
   },
 ];
 
 const SocialLinks = () => {
   return (
     <div className="flex items-center gap-3">
-      {socialData?.map((item) => (
-        <div
-          key={item?.title}
-          className="text-lightSky/80 border border-lightSky/30 p-2.5 rounded-full hover:bg-lightSky/10 hover:border-lightSky hover:text-lightSky hoverEffect"
+      {socialData.map((item) => (
+        <Link
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={item.title}
         >
-          <Link href={"www.instagram.com/_ladmir"} target="blank">
-            <span className="">{item?.icon}</span>
-          </Link>
-        </div>
+          <div
+            className="text-lightSky/80 border border-lightSky/30 p-2.5 rounded-full hover:bg-lightSky/10 hover:border-lightSky hover:text-lightSky hoverEffect"
+          >
+            {item.icon}
+          </div>
+        </Link>
       ))}
     </div>
   );
 };
 
 export default SocialLinks;
+
