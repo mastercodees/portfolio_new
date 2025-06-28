@@ -19,23 +19,21 @@ const Header = () => {
   return (
     <header className="border-b border-b-hoverColor/10 sticky top-0 z-50 bg-bodyColor">
       <Container className="flex items-center justify-between py-5">
-        <Logo title="John" subtitle="." />
+        <Logo title="Vlad" subtitle="." />
         <div className="hidden md:flex items-center gap-7 text-sm uppercase tracking-wide font-medium">
           {NavbarData?.map((item) => (
             <Link
               key={item?.title}
               href={item?.link}
-              className={`hover:text-hoverColor hoverEffect relative group overflow-x-hidden ${
-                pathname === item?.link && "text-hoverColor"
-              }`}
+              className={`hover:text-hoverColor hoverEffect relative group overflow-x-hidden ${pathname === item?.link && "text-hoverColor"
+                }`}
             >
               {item?.title}
               <span
-                className={`w-full h-px bg-hoverColor inline-block absolute left-0 bottom-0 group-hover:translate-x-0 hoverEffect ${
-                  pathname === item?.link
-                    ? "translate-x-0"
-                    : "-translate-x-[105%]"
-                }`}
+                className={`w-full h-px bg-hoverColor inline-block absolute left-0 bottom-0 group-hover:translate-x-0 hoverEffect ${pathname === item?.link
+                  ? "translate-x-0"
+                  : "-translate-x-[105%]"
+                  }`}
               />
             </Link>
           ))}

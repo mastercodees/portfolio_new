@@ -7,34 +7,34 @@ import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "John Doe | Developer Portfolio",
+  title: "Vladmir Nyataige | Developer Portfolio",
   description:
-    "Explore the portfolio of John Doe, a skilled developer specializing in web development, UI/UX design, and modern JavaScript frameworks. View projects, services, and contact details.",
+    "Explore the portfolio of vladmir Nyataige, a skilled developer specializing in web development, UI/UX design, and modern JavaScript frameworks. View projects, services, and contact details.",
   keywords:
     "developer portfolio, web developer, John Doe, UI/UX design, JavaScript, Next.js, frontend developer",
-  authors: [{ name: "John Doe" }],
+  authors: [{ name: "vladmir Nyataige" }],
   robots: "index, follow",
   openGraph: {
     type: "website",
     url: "https://portfoliofive.reactbd.com/",
-    title: "John Doe | Developer Portfolio",
+    title: "vladmir Nyataige | Developer Portfolio",
     description:
-      "Discover John Doe's portfolio showcasing expertise in web development, UI/UX, and modern frameworks. Contact for services or collaboration.",
+      "Discover vladmir Nyataige's portfolio showcasing expertise in web development, UI/UX, and modern frameworks. Contact for services or collaboration.",
     images: [
       {
         url: "https://portfoliofive.reactbd.com/assets/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "John Doe Portfolio Preview",
+        alt: "vladmir Nyataige Portfolio Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@YourTwitterHandle", // Replace with your Twitter handle
-    title: "John Doe | Developer Portfolio",
+    title: "vladmir Nyataige | Developer Portfolio",
     description:
-      "Check out John Doe's portfolio for web development and UI/UX design projects.",
+      "Check out vladmir's portfolio for web development and UI/UX design projects.",
     images: ["https://portfoliofive.reactbd.com/assets/og-image.jpg"],
   },
   alternates: {
@@ -78,7 +78,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "John Doe Portfolio",
+              name: "vladmir Nyataige Portfolio",
               url: "https://portfoliofive.reactbd.com/",
               potentialAction: {
                 "@type": "SearchAction",
